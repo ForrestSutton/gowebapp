@@ -12,22 +12,27 @@ class App extends Component{
     let {channels} = this.state;
     channels.push({id: channels.length, name});
     this.setState({channels});
-     //TODO: Send to server
+    // TODO: Send to server
   }
   setChannel(activeChannel){
     this.setState({activeChannel});
-    //TODO: get channels message 
+    // TODO: Get Channels Messages
   }
-  
   render(){
-	return (
-          <ChannelSection
-	    channels={this.state.channels}
+    return (
+      <div className='app'>
+        <div className='nav'>
+          <ChannelSection 
+            {...this.state}
             addChannel={this.addChannel.bind(this)}
-	    setChannel={this.setChannel.bin(this)}	     	
-	/> 
-       )
-    }  
+            setChannel={this.setChannel.bind(this)}
+          />
+        </div>
+      </div>
+
+      
+    )
+  }
 }
 
 export default App

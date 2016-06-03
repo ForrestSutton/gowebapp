@@ -1,2 +1,5 @@
 # gowebapp
-a go web app
+
+
+
+this is a web application using Go, react and thinkdb 
