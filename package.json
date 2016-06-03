@@ -1,0 +1,27 @@
+{
+  "name": "gowebapp",
+  "version": "0.1.0",
+  "description": "a web app with go and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ForrestSutton/gowebapp.git"
+  },
+  "author": "Forrest Sutton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ForrestSutton/gowebapp/issues"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.38",
+    "babel-loader": "^5.3.3",
+    "react": "^15.1.0",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "react-dom": "^15.1.0"
+  }
+}
